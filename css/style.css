@@ -1,0 +1,52 @@
+/*CSS File*/
+
+body { 
+	background: white;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+	
+#header {
+	margin: 0;
+	padding: 0:
+}
+#header .section .logo a {
+	background: url(../images/logo.png) repeat-x top left;
+	color: white;
+	text-align: center;
+	{
+}
+#header .section ul {
+	display: inline-block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 114px 0 0;
+}
+#header .section ul li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+#header .section ul li a {
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	height: 30px;
+	letter-spacing: 0.05em;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+.responsive {
+  width: 100%;
+  height: auto;
+}
