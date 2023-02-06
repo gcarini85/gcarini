@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!-- Created by Giancarlo Carini -->
+<!-- CS 112 - Javascript Programming -->
+
+<html>
+<head>
+	<title>PC Gaming Past, Present, Future</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	.button {
+		background-color: #929bb3;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	
+	body {
+		text-align: center;
+		image-orientation: center;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.container {
+	  position: relative;
+	  width: 50%;
+	  margin: 0 auto;
+	}
+	
+	.center {
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	  height: auto;
+	}
+	
+	.overlay {
+	  position: absolute;
+	  bottom: 100%;
+	  left: 0;
+	  right: 0;
+	  background-color: #008CBA;
+	  overflow: hidden;
+	  width: 100%;
+	  height:0;
+	  transition: .5s ease;
+	}
+	
+	.container:hover .overlay {
+	  bottom: 0;
+	  opacity: 0.5;
+	  height: 100%;
+	}
+	
+	.text {
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<header>
+	<div id="row">
+		<div class="logo-row">
+			<img src="images/logo.png" alt="logo" class="logo" style="width:100%;">
+		</div>
+		 <a href="past.html" class="button button 1">the past</a>
+		 <a href="present.html" class="button button 2">the present</a>
+		 <a href="future.html" class="button button 3">the future</a>
+		 <a href="index.html" class="button button 4">home</a>
+	</div>
+	<div id="info">
+	<p>
+	<h1>The Future.</h1><br>
+	<div class="container">
+		<img src="images/virtual.jpg" alt="Virtual Reality" class="center">
+		<div class="overlay">
+		  <div class="text">The future of gaming is up in the air.<br> Virtual Reality is one of the options with rapidly advancing technology.</div>
+		</div>
+	  </div>
+	  <br>
+	  <div class="container">
+		<img src="images/virtual2.jpg" alt="Virtual Reality" class="center">
+		<div class="overlay">
+		  <div class="text">Unfortunately there is some uncertainty with virtual reality gaming.<br>
+		Financial viability for companies selling headsets, and also the issue with batteries.</div>
+		</div>
+	  </div>
+	</p>
+	</div>
+	

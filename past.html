@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!-- Created by Giancarlo Carini -->
+<!-- CS 112 - Javascript Programming -->
+
+<html>
+<head>
+	<title>PC Gaming Past, Present, Future</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	.button {
+		background-color: #929bb3;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	body {
+		text-align: center;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script> 
+	$(document).ready(function(){
+	  $("#flip").click(function(){
+		$("#panel").slideDown("slow");
+	  });
+	});
+	</script>
+	<style> 
+	#panel, #flip {
+	  padding: 5px;
+	  text-align: center;
+	  text-emphasis-color: white;
+	  background-color: #a2b0c9;
+	  border: solid 1px #c3c3c3;
+	}
+	
+	#panel {
+	  padding: 150px;
+	  display: none;
+	}
+	</style>
+</head>
+<body>
+	<header>
+	<div id="row">
+		<div class="logo-row">
+			<img src="images/logo.png" alt="logo" class="logo" style="width:100%;">
+		</div>
+		 <a href="past.html" class="button button 1">the past</a>
+		 <a href="present.html" class="button button 2">the present</a>
+		 <a href="future.html" class="button button 3">the future</a>
+		 <a href="index.html" class="button button 4">home</a>
+	</div>
+	<div id="info">
+	<p>
+		<div id="flip">The Past</div>
+		<div id="panel"><p>The Past of Games. One of my favorite games in the past was Doom/Doom2.<br></p><p>
+			I once designed levels of intricate nature for this game, even decades after. A game of true<br></p>
+			<p>impact would continue to be played many years later.
+		</p><br>
+		<img src="images/screenlg9.webp" alt="screenshot" class="responsive"></div>
+	</div>
+	
